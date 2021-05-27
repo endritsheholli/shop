@@ -1,0 +1,55 @@
+.sub-header {
+  width: 100%;
+  padding: 0.5rem;
+  background: $black;
+  color: $white;
+  position: relative;
+  z-index: 10;
+  .navbar-nav {
+    .nav-item {
+      &:hover {
+        .nav-link {
+          color: $white;
+        }
+      }
+    }
+    .nav-link {
+      color: $battleship-grey;
+    }
+    .active .nav-link {
+      color: $white;
+    }
+  }
+  .second-sub-nav {
+    .navbar-nav {
+      .nav-item {
+        padding: 0 2rem;
+        border-right: 1px solid $battleship-grey;
+        .nav-link {
+          padding: 0;
+          line-height: 1.4;
+        }
+        &:last-child {
+          border: 0;
+        }
+      }
+    }
+  }
+  .dropdown {
+    .dropdown-toggle {
+      display: flex;
+      img {
+        margin-left: 1rem;
+      }
+      &::after {
+        display: none;
+      }
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        font-size: 13px;
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}

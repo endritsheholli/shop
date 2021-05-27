@@ -1,0 +1,26 @@
+.config-home {
+  border: 1px solid $pale-grey;
+  padding: 1rem 0;
+  input[type="checkbox"] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 10px;
+    margin-right: 15px;
+  }
+
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    label {
+      margin: 0;
+    }
+  }
+  .btn {
+    min-height: 48px;
+    height: fit-content;
+  }
+}

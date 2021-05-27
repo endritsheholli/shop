@@ -1,0 +1,48 @@
+.multiselect {
+  background: $pale-grey;
+  padding: 1rem;
+  .multiselect__tags {
+    input,
+    .multiselect__input {
+      border: 0;
+      background: $pale-grey;
+    }
+  }
+  .multiselect__content-wrapper {
+    background: $pale-grey;
+    color: $black;
+    overflow: auto;
+    margin: 0;
+
+    ul {
+      padding: 0;
+      width: 100%;
+      li {
+        .multiselect__option {
+          width: 100%;
+          display: flex;
+          padding: 1rem 0.5rem;
+        }
+        &:hover {
+          background: $pale-grey;
+          opacity: 0.9;
+        }
+        .multiselect__option--highlight {
+          background: #d8d8da;
+        }
+        .multiselect__option--selected {
+          background: $pale-red;
+          color: $white;
+        }
+      }
+    }
+  }
+  .multiselect__tags {
+    .multiselect__tag {
+      padding: 5px;
+      background: $pale-red;
+      color: $white;
+      margin-right: 5px;
+    }
+  }
+}

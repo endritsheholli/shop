@@ -1,0 +1,52 @@
+// core overrides
+
+$enable-sidebar-nav-rounded:        true;
+$border-color:                      $gray-200;
+
+// Navbar
+
+$navbar-brand-width:                240px;
+$navbar-brand-bg:                   theme-color("success");
+$navbar-brand-border: (
+    bottom: (
+        size:                       1px,
+        style:                      solid,
+        color:                      theme-color("success")
+    )
+);
+
+// Sidebar
+
+$sidebar-width:                     240px;
+$sidebar-padding:                   0 0 0 $spacer;
+$sidebar-color:                     $gray-800;
+$sidebar-bg:                        $body-bg;
+$mobile-sidebar-width:              240px;
+// Sidebar Navigation
+
+$sidebar-nav-color:                 $gray-800;
+$sidebar-nav-title-padding-y:       .95rem;
+$sidebar-nav-title-color:           $text-muted;
+$sidebar-nav-link-color:            $gray-800;
+$sidebar-nav-link-icon-color:       $gray-800;
+
+$sidebar-nav-link-hover-bg:         theme-color("success");
+
+$sidebar-nav-link-active-bg:        theme-color("success");
+$sidebar-nav-link-active-icon-color:#fff !important;
+
+$sidebar-nav-dropdown-color:        #fff;
+$sidebar-nav-dropdown-bg:           lighten(theme-color("success"), 10%);
+$sidebar-nav-dropdown-icon-color:   #fff !important;
+$sidebar-nav-dropdown-borders:      0;
+
+// Breadcrumb
+
+$breadcrumb-margin:                 0;
+$breadcrumb-borders:                0;
+
+// Footer
+
+$footer-bg:                         transparent;
+$footer-color:                      $body-color;
+$footer-borders:                    0;

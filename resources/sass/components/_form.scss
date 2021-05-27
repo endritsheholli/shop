@@ -1,0 +1,35 @@
+.custom-form {
+  label,
+  label > h4 {
+    font-family: LibreFranklin;
+    font-size: 16px;
+    font-weight: normal;
+    color: $battleship-grey;
+  }
+  .required-field > label::after{
+    font-size: 16px;
+    color: inherit;
+  }
+  .custom-input {
+    background: $pale-grey;
+    border: 0;
+    width: 100%;
+    max-width: none;
+    // border-left: 3px solid $pale-grey;
+    // padding-left: 10px !important;
+    // &:focus {
+    // border-left: 3px solid $pale-red;
+    // }
+  }
+  .icon-btn {
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 50px;
+  }
+}
+.custom-info-input {
+  position: absolute;
+  top: 36px;
+  right: 30px;
+  font-weight: 700;
+}

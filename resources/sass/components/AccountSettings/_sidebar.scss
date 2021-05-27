@@ -1,0 +1,43 @@
+.sidebar {
+  background: transparent;
+  animation-delay: 0.2s;
+  overflow: hidden;
+  padding: 0;
+
+  .sidebar-nav {
+    .nav-link {
+      border-radius: 0;
+      transition: all 0.2 s;
+      color: $battleship-grey !important;
+      border: 1px solid $battleship-grey;
+      margin: 0.5rem 0;
+      &:hover {
+        background: $white;
+        color: $battleship-grey !important;
+        i {
+          color: $battleship-grey !important;
+        }
+      }
+    }
+    .active-app-route {
+      background-color: $black !important;
+      color: $white !important;
+      font-weight: normal;
+      padding: 1rem;
+      i {
+        color: $white !important;
+      }
+    }
+  }
+}
+.sidebar-link {
+  a i {
+    background: #e3e3e3;
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,71 @@
+.product-modal {
+  width: 100%;
+  .modal-dialog {
+    width: 100%;
+    min-width: 800px;
+  }
+  .modal-body {
+    padding: 1rem !important;
+    min-height: 440px;
+    position: relative;
+    overflow: inherit;
+  }
+  .modal-product-info {
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: normal;
+      letter-spacing: 0.22px;
+      margin: 0.5rem 0;
+    }
+    .pm-title {
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.37px;
+      color: $purple-brown;
+    }
+    .pm-price {
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.37px;
+      color: $pale-red;
+    }
+    .pm-desc {
+      line-height: 1.5;
+      color: $battleship-grey;
+    }
+    .pm-seller {
+      color: $purple-brown;
+      span {
+        font-weight: 600;
+        color: $pale-red;
+      }
+    }
+  }
+  .select-custom,
+  .quantity-content {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    .label-title {
+      margin: 0;
+      margin-right: 1rem;
+      min-width: 40px;
+    }
+  }
+}
+.remove-modal {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: -40px;
+  border: 0;
+  background: 0;
+  color: white;
+  padding: 0;
+  font-size: 20px;
+  margin-right: -10px;
+  &:focus{
+    outline: 0;
+  }
+}

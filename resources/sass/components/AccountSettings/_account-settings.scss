@@ -1,0 +1,15 @@
+.account-settings{
+    display: flex;
+    flex-direction: column;
+    .page-title{
+        font-size: 26px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 0.35px;
+        color: $purple-brown;
+        text-transform: unset;
+        padding-bottom: 2rem;
+        margin-bottom: 5rem;
+        border-bottom: 1px solid $pale-grey;
+    }
+}

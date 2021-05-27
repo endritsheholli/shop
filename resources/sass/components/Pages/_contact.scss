@@ -1,0 +1,39 @@
+.map {
+  position: relative;
+  .contact-info {
+    position: absolute;
+    bottom: -105px;
+    width: 100%;
+    margin: 0;
+    .contact-content {
+      background: $pale-red;
+      min-height: 210px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      .ci-content {
+        margin: 0 auto;
+        width: fit-content;
+        h1 {
+          font-size: 20px;
+          font-weight: normal;
+          line-height: normal;
+          color: $white;
+          margin: 0;
+          opacity: 0.5;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 600;
+          font-stretch: normal;
+          line-height: normal;
+          color: $white;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

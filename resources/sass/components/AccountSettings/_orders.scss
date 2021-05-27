@@ -1,0 +1,12 @@
+.no-orders {
+  padding: 2rem;
+  min-height: 100px;
+  width: 100%;
+  border: 1px solid $pale-red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}

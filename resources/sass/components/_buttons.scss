@@ -1,0 +1,67 @@
+.btn {
+  font-family: LibreFranklin;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0.22px;
+  text-transform: none;
+}
+.btn-primary {
+  border-color: $pale-red;
+  background-color: $pale-red;
+  color: $white;
+  &:hover {
+    border-color: $pale-red;
+    background-color: $pale-red;
+    color: $white;
+    opacity: 0.9;
+  }
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  border-color: $pale-red;
+  background-color: $pale-red;
+  color: $white;
+}
+.btn-secondary {
+  border-color: rgba(35, 31, 32, 0.1);
+  background-color: rgba(35, 31, 32, 0.1);
+  color: $black;
+  &:hover {
+    border-color: rgba(35, 31, 32, 0.1);
+    background-color: rgba(35, 31, 32, 0.1);
+    color: $black;
+    opacity: 0.9;
+  }
+}
+.btn-black {
+  border-color: $black;
+  background-color: $black;
+  color: $white;
+  &:hover {
+    border-color: $black;
+    background-color: $black;
+    color: $white;
+    opacity: 0.9;
+  }
+}
+.icon-btn {
+  border-color: $pale-grey;
+  background-color: $pale-grey;
+  color: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &:hover {
+    border-color: $pale-grey;
+    background-color: $pale-grey;
+    color: $black;
+    opacity: 0.9;
+  }
+}
+.disable-btn{
+  pointer-events: none;
+  opacity: .8;
+  background-color: $battleship-grey;
+  border-color: $battleship-grey;
+}

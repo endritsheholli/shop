@@ -1,0 +1,144 @@
+{
+    "response": [
+        {
+            "id": 5,
+            "name": "aasdas",
+            "phone_number": "4564564",
+            "active": 1,
+            "created_at": "2020-02-26 00:38:57",
+            "updated_at": "2020-02-26 00:38:57",
+            "price_companies": [
+                {
+                    "id": 1,
+                    "company_id": 5,
+                    "from": "0",
+                    "to": "3",
+                    "price": "2",
+                    "created_at": "2020-02-26 00:38:57",
+                    "updated_at": "2020-02-26 00:38:57"
+                },
+                {
+                    "id": 2,
+                    "company_id": 5,
+                    "from": "2",
+                    "to": "5",
+                    "price": "4",
+                    "created_at": "2020-02-26 00:38:57",
+                    "updated_at": "2020-02-26 00:38:57"
+                }
+            ],
+            "users": [
+                {
+                    "id": 178,
+                    "email": "ardi.krasniqi99@gmail.com",
+                    "role_id": 1,
+                    "company_id": 5,
+                    "zogu_mall_id": null,
+                    "photo_url": "https://www.gravatar.com/avatar/d939a8746e9c2bb430bd615562d3c3a4.jpg?s=200&d=mm",
+                    "user_details": {
+                        "id": 21,
+                        "user_id": 178,
+                        "city_id": 1,
+                        "name": "aasdas",
+                        "phone_number": "4564564",
+                        "address": "ADRESA"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "test company",
+            "phone_number": "4564564",
+            "active": 1,
+            "created_at": "2020-02-26 01:17:38",
+            "updated_at": "2020-02-26 01:17:38",
+            "price_companies": [
+                {
+                    "id": 9,
+                    "company_id": 8,
+                    "from": "0",
+                    "to": "3",
+                    "price": "2",
+                    "created_at": "2020-02-26 01:17:38",
+                    "updated_at": "2020-02-26 01:17:38"
+                },
+                {
+                    "id": 10,
+                    "company_id": 8,
+                    "from": "2",
+                    "to": "5",
+                    "price": "4",
+                    "created_at": "2020-02-26 01:17:38",
+                    "updated_at": "2020-02-26 01:17:38"
+                }
+            ],
+            "users": [
+                {
+                    "id": 181,
+                    "email": "testcompany@test.com",
+                    "role_id": 1,
+                    "company_id": 8,
+                    "zogu_mall_id": null,
+                    "photo_url": "https://www.gravatar.com/avatar/44c3997ede81fd1472832aedd8a7f632.jpg?s=200&d=mm",
+                    "user_details": {
+                        "id": 24,
+                        "user_id": 181,
+                        "city_id": 1,
+                        "name": "test company",
+                        "phone_number": "4564564",
+                        "address": "ADRESA"
+                    }
+                },
+                {
+                    "id": 186,
+                    "email": "testemp@test.com",
+                    "role_id": 3,
+                    "company_id": 8,
+                    "zogu_mall_id": null,
+                    "photo_url": "https://www.gravatar.com/avatar/d02fcb2cbdbd3190b1fc3d84491f73bc.jpg?s=200&d=mm",
+                    "user_details": {
+                        "id": 25,
+                        "user_id": 186,
+                        "city_id": 2,
+                        "name": "adsas",
+                        "phone_number": "044123456",
+                        "address": "sdasd"
+                    }
+                },
+                {
+                    "id": 187,
+                    "email": "origanizator_company@test.com",
+                    "role_id": 2,
+                    "company_id": 8,
+                    "zogu_mall_id": null,
+                    "photo_url": "https://www.gravatar.com/avatar/86d919f5b6c0e64c3403a1104e3ead0e.jpg?s=200&d=mm",
+                    "user_details": {
+                        "id": 26,
+                        "user_id": 187,
+                        "city_id": 1,
+                        "name": "origanizator company",
+                        "phone_number": "0444544556",
+                        "address": "1asdsad"
+                    }
+                },
+                {
+                    "id": 188,
+                    "email": "shites@company.com",
+                    "role_id": 4,
+                    "company_id": 8,
+                    "zogu_mall_id": 12,
+                    "photo_url": "https://www.gravatar.com/avatar/4633fc9c03219a895279d4e552d41202.jpg?s=200&d=mm",
+                    "user_details": {
+                        "id": 27,
+                        "user_id": 188,
+                        "city_id": 1,
+                        "name": "shites company",
+                        "phone_number": "044568411",
+                        "address": "asdasdasd"
+                    }
+                }
+            ]
+        }
+    ]
+}

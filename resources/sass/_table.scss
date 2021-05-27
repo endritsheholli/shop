@@ -1,0 +1,96 @@
+
+// More practical CSS...
+// using mobile first method (IE8,7 requires respond.js polyfill https://github.com/scottjehl/Respond)
+
+$breakpoint-alpha: 480px; // adjust to your needs
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px; // adjust to your needs
+  
+  tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!   
+  }
+  
+  td {
+    display: block; 
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    
+  }
+  
+  th, td {
+    text-align: left;
+    color: #ffffff;
+
+    
+    @media (min-width: $breakpoint-alpha) {
+      display: table-cell;
+      padding: .25em .5em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+ 
+  
+  
+}
+.tr_table{
+    background: #DDDDDD;
+}
+.tr_table th{
+    background: #EAEAEA;
+}
+.tr_table_2{
+    background: #EAEAEA;
+}
+.tr_table_2 td{
+    color: black;
+}
+// presentational styling
+
+
+
+
+.rwd-table {
+  background: #ffffff;
+  width: 100%;
+  border-collapse: separate;
+    border-spacing: 0 1em;
+ 
+  border-radius: .4em;
+  overflow: hidden;
+  tr {
+    border-color: lighten(#34495E, 10%);
+
+  }
+  th, td {
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha) { 
+      padding: 1em !important; 
+    }
+  }
+
+}
+.rwd-table th, .rwd-table td:before {
+    color: #000000;
+    content: none;
+}

@@ -1,0 +1,31 @@
+.navbar-panel {
+  .nav {
+    .nav-item {
+      .nav-link {
+        color: $battleship-grey;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid $pale-lilac;
+        font-family: LibreFranklin;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: normal;
+      }
+      .active-app-route {
+        background-color: $pale-red;
+        color: $white;
+      }
+    }
+  }
+  .logout-btn {
+    display: flex;
+    background: $battleship-grey;
+    padding: 1rem 2rem;
+    line-height: normal;
+    button {
+      color: $white;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
